@@ -1,0 +1,19 @@
+Columns description.
+
+0 - id
+1-2 - home team and away team names
+3 - date of the match (e.g. "August 08 2014")
+4-5 - league and season, which the match belongs to
+6-7 - home team and away team scores (number of goals scored)
+8-9 - home team and away team xG (expected goals)
+10 - datetime of the match (e.g 2014-08-08)
+11-12 - home team and away team current standings (table positions) just before the start of the match - depending on team names alphabetical order in case of the same number of points or the first matches of the season
+13-14 - home team and away team current number of points just before the start of the match
+15-18 - total number of points home/away team have gained in their previous 4 matches or previous 2 home matches (for home team) or previous 2 away matches (for away team) - can be NaN in case of the first matches of the season when teams have not played enough matches this season yet
+19-22 - total number of goals home/away team have scored in their previous 4 matches or previous 2 home matches (for home team) or previous 2 away matches (for away team) - can be NaN in case of the first matches of the season when teams have not played enough matches this season yet
+23-26 - total number of goals home/away team have conceded (goals against) in their previous 4 matches or previous 2 home matches (for home team) or previous 2 away matches (for away team) - can be NaN in case of the first matches of the season when teams have not played enough matches this season yet
+27-30 - average value of xG home/away team have gained in their previous 4 matches or previous 2 home matches (for home team) or previous 2 away matches (for away team) - can be NaN in case of the first matches of the season when teams have not played enough matches this season yet
+31-34 - average value of xG-against (xG of the team opponent) home/away team have gained in their previous 4 matches or previous 2 home matches (for home team) or previous 2 away matches (for away team) - can be NaN in case of the first matches of the season when teams have not played enough matches this season yet
+35-36 - home team and away team starting formation (values in [0, 1, 2, 3, 4]: 0 for 2 defenders and 1 forward, 1 for 3 defenders and 1 forward, 2 for 2 defenders and 2 forwards, 3 for 3 defenders and 2 forwards, 4 if otherwise)
+37-42 - average home/away team players match rating separately among defense, midfield, attack players (defense, midfield or attack player is determined by his position in the match)
+43-54 - average value of defense, midfield, attack players match ratings for home/away team in their previous 4 matches or previous 2 home matches (for home team) or previous 2 away matches (for away team) - can be NaN in case of the first matches of the season when teams have not played enough matches this season yet
